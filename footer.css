@@ -1,0 +1,52 @@
+/*footer*/
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: #c2e89b;
+  height: 250px;
+}
+
+.end__logo {
+  margin-top: 30px;
+  margin-left: 10px;
+}
+
+.end__logo > img {
+  width: 150px;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 20px;
+  gap: 25px;
+}
+
+.icons {
+  display: flex;
+  width: 32px;
+  height: 32px;
+  justify-content: flex-end;
+  flex-direction: row;
+  margin-top: 20px;
+}
+
+.icons > img {
+  width: 32px;
+}
+
+@media screen and (min-width: 600px) {
+  .end__logo {
+    margin-top: 30px;
+    margin-left: 30px;
+  }
+  .links {
+    flex-direction: row;
+    margin-top: 60px;
+  }
+  .icons {
+    margin-top: 60px;
+  }
+}
