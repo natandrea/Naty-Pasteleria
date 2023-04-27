@@ -19,6 +19,7 @@
 
 .client--container > * {
   grid-column: span 1;
+  margin: 30px;
 }
 
 @media screen and (max-width: 900px) {

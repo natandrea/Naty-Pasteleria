@@ -6,9 +6,6 @@ body {
   margin: 0;
 }
 
-section {
-}
-
 /* 3rd section */
 
 .phrase__image {
@@ -24,15 +21,7 @@ section {
 /* 6th section */
 
 .instagram--feed {
-  margin-top: 45px;
-  margin-bottom: 45px;
-}
-
-@media screen and (min-width: 900px) {
-  .instagram--feed {
-    margin-right: 45px;
-    margin-left: 45px;
-  }
+  margin: 45px;
 }
 
 /*WhatsApp*/
