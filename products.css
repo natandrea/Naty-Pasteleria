@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 30px;
-  margin: 30px;
+  margin: 40px;
 }
 
 .slider--products img {
@@ -25,6 +25,7 @@
 @media screen and (min-width: 600px) {
   .slider--products {
     grid-template-columns: repeat(2, 1fr);
+    margin: 80px;
   }
 }
 
