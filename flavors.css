@@ -23,8 +23,8 @@
   display: grid;
   grid-template-columns: 0px repeat(4, 1fr) 0px;
   grid-template-rows: 0px repeat(4, 1fr);
-  width: 400px;
-  height: 400px;
+  width: 300px;
+  height: 300px;
 }
 
 .flavor__image {
@@ -75,11 +75,9 @@
 }
 
 @media screen and (min-width: 600px) {
-  .flavors--container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
-    margin: 0px;
+  .flavors__images {
+    width: 400px;
+    height: 400px;
   }
 
   .flavors__text {
