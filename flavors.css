@@ -72,6 +72,7 @@
 
 .flavors__text__container {
   color: white;
+  margin: 0px 30px 30px 30px;
 }
 
 @media screen and (min-width: 600px) {
